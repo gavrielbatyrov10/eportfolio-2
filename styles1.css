@@ -736,4 +736,7 @@ footer {
   .modal__half {
     padding: 40px;
   }
+
+  .modal__language P{
+width: 40%;  }
 }
