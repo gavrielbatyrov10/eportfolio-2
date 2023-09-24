@@ -157,7 +157,7 @@ nav,
   background-color: #242424;
 }
 .dark-theme #personal-logo {
-  filter: none;
+filter: invert(1);
 }
 .dark-theme .scroll__icon {
   border-color: white;
@@ -169,6 +169,10 @@ nav,
 .dark-theme .mail__btn {
   background-color: white;
   color: #242424;
+}
+
+.dark-theme .footer__logo--img {
+    filter: invert(1);
 }
 /* 
 
@@ -285,7 +289,8 @@ nav {
 #personal-logo {
   width: 50px;
   height: 50px;
-  filter: invert(1);
+  border-radius: 50%;
+  transform: scale(1.3)
 }
 
 .nav__link--list {
@@ -590,6 +595,8 @@ footer {
 
 .footer__logo--img {
   width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 
 .footer__social--list {
